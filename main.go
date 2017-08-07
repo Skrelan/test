@@ -10,7 +10,7 @@ func visit(numbers []int, callback func(int)) {
 	}
 }
 func main() {
-	i := 1
+	i := 'a'
 	fmt.Println("This a tutorial on clousers!")
 	visit([]int{1, 2, 3, 4, 5, 6, 7, 8}, func(n int) {
 		fmt.Println(n)
