@@ -10,6 +10,9 @@ func visit(numbers []int, callback func(int)) {
 	}
 }
 func main() {
+	i := 1
+	fmt.Println("This is awesome")
+	fmt.Println("This a tutorial on clousers2!")
 	fmt.Println("This a tutorial on clousers!")
 	visit([]int{1, 2, 3, 4, 5, 6, 7, 8}, func(n int) {
 		fmt.Println(n)
