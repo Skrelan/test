@@ -10,7 +10,7 @@ func visit(numbers []int, callback func(int)) {
 	}
 }
 func main() {
-	i := 1
+	i := 0
 	fmt.Println("This is awesome")
 	fmt.Println("This a tutorial on clousers2!")
 	fmt.Println("This a tutorial on clousers!")
