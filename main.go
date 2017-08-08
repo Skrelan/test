@@ -9,6 +9,9 @@ func visit(numbers []int, callback func(int)) {
 		callback(value)
 	}
 }
+func uptow(){
+	panic()
+}
 func main() {
 	i := 'a'
 	fmt.Println("This is awesome",i)
