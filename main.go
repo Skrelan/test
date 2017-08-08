@@ -12,7 +12,9 @@ func visit(numbers []int, callback func(int)) {
 func branched(){
 	fmt.Println("this is part of a feature branch")
 }
-
+func uptow(){
+	panic()
+}
 func main() {
 	i := 'a'
 	fmt.Println("This is awesome",i)
